@@ -1,0 +1,623 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation page</title>
+    <link rel="stylesheet" href="css/technicaldocumentationpage.css">
+  </head>
+  
+  <body>
+    <nav id="navbar">
+      <header>Web Application Development</header>
+      <hr class="header_line">
+      <ul>
+        <li><a class="nav-link" href="#Course Outline">Course Outline</a></li>
+        <li><a class="nav-link" href="#Client-Side vs. Server-Side Development">Client-Side vs. Server-Side Development</a></li>
+        <li><a class="nav-link" href="#Overview of Web Technologies">Overview of Web Technologies</a></li>
+        <li><a class="nav-link" href="#Git">Git</a></li>
+        <li><a class="nav-link" href="#HTML Elements">HTML Elements</a></li>
+        <li><a class="nav-link" href="#Introduction to HTML5, CSS and JavaScript">Introduction to HTML5, CSS and JavaScript</a></li>
+        <li><a class="nav-link" href="#10 Advanced Git Commands">10 Advanced Git Commands</a></li>
+        <li><a class="nav-link" href="#Introducing Cascading Style Sheets">Introducing Cascading Style Sheets</a></li>
+        <li><a class="nav-link" href="#Windows Subsystem for Linux S">Windows Subsystem for Linux S</a></li>
+        <li><a class="nav-link" href="#A Complete Guide to Flexbox | CSS-Tricks">A Complete Guide to Flexbox | CSS-Tricks</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Course Outline">
+        <header>Course Outline</header>
+        <article>
+          <p>
+            Web Application Development involves structuring the content in a logical and progressive manner, covering key concepts and skills necessary for developing web applications. Below is a sample course outline that you can customize based on the specific technologies, tools, and programming languages you intend to cover. This outline assumes a basic understanding of HTML, CSS, and JavaScript.
+          </p>
+
+          <p>
+          <h4>Module 2: Frontend Development</h4>
+            Section A: Advanced HTML and CSS
+          <ul>
+            <li>HTML5 Semantic Elements</li>
+            <li>Responsive Web Design</li>
+            <li>CSS Flexbox and Grid Layout</li>
+          </ul>
+        </p>
+
+          <p>
+            Section B: JavaScript and DOM Manipulation
+          <ul>
+            <li>JavaScript Basics and ES6 Features</li>
+            <li>Document Object Model (DOM) Manipulation</li>
+            <li>Event Handling and AJAX</li>
+          </ul>
+        </p>
+        
+          <p>
+            <h4>Module 3: Introduction to Backend Development</h4>
+            <ul>
+              <li>Overview of Server-Side Programming</li>
+              <li>Introduction to Node.js and Express.js</li>
+              <li>Setting Up a Development Environment</li>
+            </ul>
+          </p>
+        </article>
+      </section>
+    
+      <section class="main-section" id="Client-Side vs. Server-Side Development">
+        <header>Client-Side vs. Server-Side Development</header>
+        <article>
+         <p>Client-side and server-side development are two distinct aspects of web development that involve different technologies, responsibilities, and functionalities. </p>
+        <hr>
+        <h4>Client-Side Development:</h4>
+        <ul>
+          <li>Definition: Client-side development refers to the activities that take place on the user's device (typically a web browser) and involve the user interface and user experience.</li>
+          <li>Technologies: HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), JavaScript, and various front-end frameworks and libraries like React, Angular, or Vue.js.</li>
+          <li>Responsibilities:
+            <li>Creating the structure (HTML) and style (CSS) of a web page.</li>
+            <li>Implementing interactive and dynamic features using JavaScript.</li>
+            <li>Managing the presentation layer and user interactions.</li>
+          </li>
+          <li>Advantages:
+            <li>Fast and responsive user interfaces.</li>
+            <li>Reduces server load as certain operations are performed on the client's side.</li>
+            <li>Enhanced user experience with dynamic and interactive elements.</li>
+          </li>
+        </ul>
+        <hr>
+        <h4>Server-Side Development:</h4>
+        <ul>
+          <li>Definition: Server-side development involves activities that occur on the web server, managing and processing data, handling requests, and performing various server-related operations.</li>
+          <li>Technologies: Server-side languages such as PHP, Python (Django), Ruby (Ruby on Rails), Java (Spring), and JavaScript (Node.js).</li>
+          <li>Responsibilities:
+            <li>Handling data storage and retrieval from databases.</li>
+            <li>Executing business logic and application functionality.</li>
+            <li>Managing user authentication and authorization.</li>
+            <li>Generating dynamic content to be sent to the client.</li>
+          </li>
+          <li>Advantages:
+            <li>Enhanced security as sensitive operations are performed on the server.</li>
+            <li>Centralized control over data and business logic.</li>
+            <li>Better scalability for handling a large number of users.</li>
+          </li>
+        </ul>
+        <hr>
+        <h4>Interaction Between Client-Side and Server-Side:</h4>
+        <ul>
+        <li>Communication: Both sides communicate through protocols like HTTP(S), and they exchange data using formats like JSON or XML.</li>
+        <li>Workflow: A typical web application involves the client making requests to the server, and the server responds with the necessary data or performs actions.</li>
+      </ul>
+      <h4>Full-Stack Development:</h4>
+      <ul>
+        <li>Definition: Developers who work on both client-side and server-side aspects are known as full-stack developers.</li>
+        <li>Responsibilities: Full-stack developers have a broader skill set and can handle tasks ranging from designing user interfaces to managing server infrastructure.</li>
+      </ul>
+      <hr>
+      <p>In modern web development, a balanced combination of both client-side and server-side technologies is crucial for building robust and efficient web applications. The choice between them depends on factors such as project requirements, performance considerations, and the desired user experience.</p>
+        </article>
+      </section>
+    
+      <section class="main-section" id="Overview of Web Technologies">
+        <header>Overview of Web Technologies</header>
+        <article>
+          <h4>Definition of the Internet</h4>
+          <ul>
+            <li>Internet Basics:
+              <li>Global network of interconnected computers.</li>
+              <li>Enables communication, information sharing, and collaboration.</li>
+            </li>
+          </ul>
+          <hr>
+          <h3>Evolution of the World Wide Web</h3>
+          <hr>
+          <ul>
+            <h3>Historical Development:</h3>
+              <ul>
+                <h4>ARPANET Creation (1969):</h4>
+                  <li>ARPANET, the first packet-switching network, was developed by the United States Department of Defense's Advanced Research Projects Agency (ARPA, now DARPA).</li>
+                  <li>On October 29, 1969, ARPANET's first message was sent between two computers at the University of California, Los Angeles (UCLA) and the Stanford Research Institute (SRI). The message was "LOGIN.</li>
+                <h4>Development of TCP/IP (1970s):</h4>
+                  <li>The Transmission Control Protocol (TCP) and Internet Protocol (IP) were developed by Vinton Cerf and Bob Kahn.</li>
+                  <li>TCP/IP became the standardized communications protocol suite for ARPANET, forming the foundation for the entire Internet.</li>
+                
+                <h4>Expansion and Standardization (1970s-1980s):</h4>
+                  <li>The ARPANET continued to grow, connecting more research institutions and universities.</li>
+                  <li>TCP/IP was adopted as the protocol for connecting diverse networks, leading to the term "Internet" (short for interconnected networks).</li>
+                  <li>The development of standardized protocols contributed to the Internet's expansion.</li>
+                
+                <h4>Name System (DNS) Introduction (1983):</h4>
+                  <li>The Domain Name System, which translates human-readable domain names into IP addresses, was introduced in 1983.</li>
+                  <li>This facilitated the use of easily memorable names instead of numerical IP addresses.</li>
+                
+                <h4>Commercialization (1990s):</h4>
+                  <li>The 1990s saw the commercialization of the Internet, with the launch of the World Wide Web and the development of browsers like Netscape.</li>
+                  <li>The Internet became accessible to the public, leading to a rapid increase in websites and online services.</li>
+              </ul>
+              <hr>
+            <h3 class="title">3. Key Internet Protocols</h3>
+            <ul>
+              <li>HTTP (Hypertext Transfer Protocol):</li>
+              <ul>
+                <li>Foundation of data communication on the web.</li>
+                <li>Defines how messages are formatted and transmitted.</li>
+              </ul>
+            </ul>
+
+            <ul>
+              <li>HTTPS (Hypertext Transfer Protocol Secure):</li>
+              <ul>
+                <li>Secure version of HTTP using encryption (SSL/TLS).</li>
+                <li>Ensures secure data transfer, especially for sensitive information.</li>
+              </ul>
+            </ul>
+
+            <h3 class="title">4. Client-Server Architecture</h3>
+            <ul>
+              <li>Roles:</li>
+              <ul>
+                <li>Clients request services or resources.</li>
+                <li>Servers provide requested services or resources.</li>
+              </ul>
+            </ul>
+
+            <ul>
+              <li>Request-Response Cycle:</li>
+              <ul>
+                <li>Clients send requests to servers.</li>
+                <li>Servers process requests and send back responses.</li>
+            </ul>
+          </ul>
+
+          <h3 class="title">5. Internet Technologies</h3>
+          <ul>
+            <li>HTML (Hypertext Markup Language):</li>
+            <ul>
+              <li>Standard markup language for creating web pages.</li>
+              <li>Defines structure and layout using tags.</li>
+            </ul>
+            
+            <li>CSS (Cascading Style Sheets):</li>
+            <ul>
+              <li>Style sheet language for describing the presentation of a document.</li>
+              <li>Enhances the visual presentation of HTML elements.</li>
+            </ul>
+
+            <li>JavaScript:</li>
+            <ul>
+              <li>Programming language that enables dynamic content on web pages.</li>
+              <li>Enhances interactivity and user experience.</li>
+            </ul>
+          </ul>
+          
+          <h3 class="title">6. Responsive Web Design</h3>
+          <ul>
+            <li>Importance:</li>
+            <ul>
+              <li>Ensures web applications work well on various devices and screen sizes.</li>
+              <li>Enhances user experience across desktops, tablets, and mobile devices.</li>
+            </ul>
+            
+            <li>Media Queries:</li>
+            <ul>
+              <li>CSS technique for applying styles based on device characteristics.</li>
+              <li>Allows adaptation to different viewport sizes.</li>
+            </ul>
+
+            <li>Flexbox and Grid Layout:</li>
+            <ul>
+              <li>CSS layout models that simplify the design of flexible and responsive web layouts.</li>
+            </ul>
+          </ul>
+
+          <hr>
+          <p>This overview provides a foundational understanding of key concepts in web technologies, including the Internet, the World Wide Web, internet protocols, client-server architecture, and fundamental web development technologies.</p>   
+        </article>
+      </section>
+
+
+
+
+      <section class="main-section" id="Git">
+        <header>Git</header>
+        <article>
+          <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+          <p>Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
+
+          <p>To install Git in your computer, download it from this link: <a style="text-decoration: none;" href="https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe">Git Installer</a></p>
+
+          <p>When you’re done with the installation, you can now test to see if git works in your system. </p>
+          <ul>
+            <li>Open a terminal or command prompt</li>
+            <li>type <span style="color: cyan;">git</span> and press enter</li>
+            <li>if you see the image below, congratulations, you have installed git in your computer.</li>
+            <br>
+            <img src="git.png" alt="" width="400">
+          </ul>
+
+          <p>Your next step is to clone your repository. </p>
+          <ol>
+            <li>Open cmd or terminal or any of your preferred CLI. </li><br>
+            <img src="terminal.png" alt="" width="400">
+            <li>Select the best location for you to clone. In this example, I cloned it on drive C: inside folder users/pc. Remember the directory structure you learned in Platform Technologies.</li>
+
+            <p>Type the command git clone https://github.com/<code>your username/repository name.git</code></p>
+
+            <li>If you see the image above, you have succesccfuly cloned your repository. Remember that a new folder is created which is your repository name. Don’t forget to move inside that folder before issuing the git commands later. </li>
+            <p>Change the directory by typing <code>cd [repository name] </code> then type <code>git status</code> </p>
+
+            <li>Add any file in your repository, preferably a text file. Then type <span style="color: red;">git status </span>again. It will display the new files as untracked files. You can now push (upload) it in your repository. </li>
+
+            <code>git add . [this will upload everything] you can specify a file eg git add echo.txt</code>
+            <code>git commit -m <span style="color: cyan;">"Descriptive Comment"</span> </code>
+            <code>git push</code>
+          </ol>
+          
+         
+        </article>
+
+    <!--HTML Elements-->
+      </section>
+      <section class="main-section" id="HTML Elements">
+        <header>HTML Elements</header>
+        <section>
+          <h4 class="desc">Basic HTML (required)</h4>
+          <img src="images/basic html.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Formatting (_4mat.html)</h4>
+          <img src="images/formatting.jpg" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Forms and Input (required)</h4>
+          <img src="images/Forms and Input.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Frames (required)</h4>
+          <img src="images/Frames.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Images</h4>
+          <img src="images/Images.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Audio / Video</h4>
+          <img src="images/Audio or Video.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Lists</h4>
+          <img src="images/lists.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Tables (required)</h4>
+          <img src="images/tables.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Styles and Semantics</h4>
+          <img src="images/styles and semantics.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Meta Info</h4>
+          <img src="images/meta info.png" alt="" width="500">
+        </section>
+        <section>
+          <h4 class="desc">Programming (required)</h4>
+          <img src="images/programming.png" alt="" width="300">
+        </section>
+      </section>
+
+    <!--Introduction to HTML5, CSS and JavaScript-->
+      <section class="main-section" id="Introduction to HTML5, CSS and JavaScript">
+        <header>Introduction to HTML5, CSS and JavaScript</header>
+        <article>
+         <h3>HTML5 (Hypertext Markup Language):</h3>
+          <ul>
+            <li>HTML is the standard markup language used to create the structure and content of web pages.</li>
+            <li>HTML5 is the latest version of HTML, and it introduces new features and improvements over its predecessors.</li>
+            <li>It provides tags and attributes that define the various elements on a web page, such as headings, paragraphs, images, links, forms, and more.</li>
+            <li>HTML5 also includes new elements like header, nav, article, section, footer, which help in structuring the content more semantically.</li>
+          </ul>
+        <p>Example of a simple HTML5 document structure:
+        </p>
+        <img src="html_example.png" alt="" width="500">
+
+        <h3>CSS (Cascading Style Sheets):</h3>
+          <ul>
+            <li>CSS is used to style and layout the visual presentation of HTML documents.</li>
+            <li>It allows you to control the colors, fonts, spacing, and positioning of elements on a web page.</li>
+            <li>CSS is applied either internally within an HTML document, externally in a separate stylesheet file, or inline within HTML tags.</li>
+          </ul>
+        <p>Example of a simple CSS style rule:  
+        </p>
+        <img src="css_example.png" alt="" width="500">
+
+        <h3>JavaScript:</h3>
+        <ul>
+          <li>JavaScript is a scripting language that enables dynamic and interactive behavior on web pages.</li>
+          <li>It can be included directly within HTML documents or linked externally.</li>
+        </ul>
+      <p>Example of a simple JavaScript script:
+      </p>
+      <img src="js_example.png" alt="">
+        </article>
+      </section>
+
+    <!--10 Advanced Git Commands-->
+      <section class="main-section" id="10 Advanced Git Commands">
+        <header>10 Advanced Git Commands</header>
+        <article>
+          <h3 class="commands">1. Add & Commit</h3>
+            <p>You have added and committed the files this way multiple times, but what if I tell you it can be done in one line with the `-am` flag? </p>
+              <code>$ git add .
+                  $ git commit -m "new project"
+              </code>
+            
+            <p>Try this instead, and it will add the file changes and create the commit using the message. </p>
+              <code>$ git commit -am "new project"
+                  [master 17d7675] new project
+                  4 files changed, 2 insertions(+), 1 deletion(-)
+              </code>
+
+          <h3 class="commands">2. Amend</h3>
+            <p>You can rename your current commit message using the `--amend` flag and write the new message. This will help you with accidental messages.</p>
+              <code>
+                $ git commit --amend -m "Love"
+              </code>
+            <p>You can include additional changes to the current commit before pushing it to the remote repository. To do so, you need to add the file changes and then commit using the `--amend` flag. To retain the previous commit message, simply use the `--no-edit` flag.</p>
+              <code>
+                $ git add . 
+                $ git commit --amend --no-edit
+              </code>
+          
+            <h3 class="commands">3. Revert</h3>
+              <p>To undo a commit in Git, you can use the `revert` command. However, this command does not remove any commits. Instead, it creates a new commit that undoes the changes made by the original commit.</p>
+              <p>We will use the <b>`log` with `--oneline`</b> flag to view commit history in a shorter form. </p>
+              <p>To revert to a previous commit, we use the <b>`git revert`</b> command followed by the commit ID. This creates a new commit with the changes from the previous commit.</p>
+        </article>
+      </section>
+
+
+      <section class="main-section" id="Introducing Cascading Style Sheets">
+        <header>Introducing Cascading Style Sheets</header>
+        <article>
+          <h2>CSS Style Rules</h2>
+          <ul>
+            <li>In CSS, style rules express the style characteristics for an HTML element</li>
+            <li>A set of style rules is called a style sheet</li>
+            <li>Style rules are easy to write and interpret</li>
+          </ul>
+          <img src="css_rules.png" alt="" width="500">
+          <hr>
+
+          <h2>CSS Style Rules</h2>
+          <ul>
+            <li>The declaration contains a property and a value</li>
+            <img src="style_rules.png" alt="" width="500">
+            <li>The property is a quality or characteristic</li>
+            <li>CSS includes a wide variety of different properties, each with a specific number of values</li>
+          </ul>
+        <hr>
+
+        <h2>Combining CSS Style Rules with HTML</h2>
+        <p>You can combine CSS with HTML in three ways:</p>
+        <ul>
+          <li>Inline style</li>
+          <li>Internal style sheet</li>
+          <li>External style sheet</li>
+        </ul>
+        <img src="html_style.png" alt="" width="500">
+        <hr>
+        
+        <h2>Using External Style Sheets</h2>
+        <ul>
+          <li>External style sheets let you specify rules for multiple Web pages</li>
+          <li>External style sheets have a .css extension</li>
+        </ul>
+          <img src="external.png" alt="" width="400">
+
+        <h2>Using Internal Style Sheets</h2>
+          <ul>
+            <li>Internal style sheets are contained within the style element</li>
+            <li>Style rules contained in an internal style sheet only affect the document in which they reside</li>
+          </ul>
+            <img src="internal.png" alt="" width="400">
+
+          <h2>Using Inline Styles</h2>
+            <ul>
+              <li>You can define styles for a single element with the style attribute</li>
+              <li>The style attribute can be used to override a style that was set at a higher level</li>
+            </ul>
+            <img src="inline.png" alt="" width="400">
+  
+        </article>
+      </section>
+
+
+      <section class="main-section" id="Windows Subsystem for Linux S">
+        <header>Windows Subsystem for Linux S</header>
+        <article>
+          <h3>List of Commands</h3>
+          <img src="commands.png" alt="" width="500">
+
+          <h3>Folder Locations</h3>
+          <ul>
+            <li>Apache Folder - <kbd>/etc/apache2</kbd> </li>
+            <li>Document Root - <kbd> `/var/www/`</kbd></li>
+          </ul>
+          
+        </article>
+      </section>
+
+      <section class="main-section" id="A Complete Guide to Flexbox | CSS-Tricks">
+        <header>A Complete Guide to Flexbox | CSS-Tricks</header>
+        <article>
+          <h3>Background</h3>
+          <p>The Flexbox Layout (Flexible Box) module (a W3C Candidate Recommendation as of October 2017) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).</p>
+
+          <h3>Basic Terminology</h3>
+          <p>Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).</p>
+          <ul>
+            <li><kbd>main axis - </kbd> The main axis of a flex container is the primary axis along which flex items are laid out. Beware, it is not necessarily horizontal; it depends on the flex-direction property (see below).</li>
+            <li><kbd>main-start | main-end - </kbd>The flex items are placed within the container starting from main-start and going to main-end.</li>
+            <li><kbd>main size - </kbd>A flex item’s width or height, whichever is in the main dimension, is the item’s main size. The flex item’s main size property is either the ‘width’ or ‘height’ property, whichever is in the main dimension.</li>
+            <li><kbd>cross axis –</kbd>The axis perpendicular to the main axis is called the cross axis. Its direction depends on the main axis direction.</li>
+            <li><kbd>cross-start | cross-end – </kbd>Flex lines are filled with items and placed into the container starting on the cross-start side of the flex container and going toward the cross-end side.</li>
+            <li><kbd>cross size –</kbd>The width or height of a flex item, whichever is in the cross dimension, is the item’s cross size. The cross size property is whichever of ‘width’ or ‘height’ that is in the cross dimension. </li>
+          </ul>
+
+          <h3>Flex properties</h3>
+          <img src="flex.png" alt="">
+
+          <h3>Properties for the Parent
+            (flex container)</h3>
+            <h4>display</h4>
+              <p>This defines a flex container; inline or block depending on the given value. It enables a flex context for all its direct children.</p>
+                <code>.container {
+                  display: flex; /* or inline-flex */
+                }
+                </code>
+
+              <h4>flex-direction</h4>
+                <p>This establishes the <kbd>main-axis</kbd>, thus defining the direction flex items are placed in the flex container. Flexbox is (aside from optional wrapping) a single-direction layout concept. Think of flex items as primarily laying out either in horizontal rows or vertical columns.</p>
+                  <code>.container {
+                    flex-direction: row | row-reverse | column | column-reverse;
+                  }</code>
+                  <ul>
+                    <li><kbd>row</kbd>(default): left to right in <kbd>ltr</kbd>; right to left in <kbd> rtl</kbd></li>
+                    <li><kbd>row-reverse:</kbd>  right to left in <kbd>ltr</kbd>; left to right in <kbd>rtl</kbd></li>
+                    <li><kbd>column:</kbd>same as <kbd>row</kbd> but top to bottom</li>
+                    <li><kbd>column-reverse:</kbd> same as <kbd>row-reverse</kbd> but bottom to top</li>
+                  </ul>
+
+              <h4>flex-wrap</h4>
+                  <p>By default, flex items will all try to fit onto one line. You can change that and allow the items to wrap as needed with this property.</p>
+                  <code>.container {
+                    flex-wrap: nowrap | wrap | wrap-reverse;
+                  }</code>
+                  <ul>
+                    <li><kbd>nowrap</kbd> (default): all flex items will be on one line</li>
+                    <li><kbd>wrap</kbd>: flex items will wrap onto multiple lines, from top to bottom.</li>
+                    <li><kbd>wrap-reverse</kbd>: flex items will wrap onto multiple lines from bottom to top.</li>
+                  </ul>
+
+              <h4>flex-flow</h4>
+                  <p>This is a shorthand for the <kbd>flex-direction</kbd> and <kbd>flex-wrap</kbd> properties, which together define the flex container’s main and cross axes. The default value is row nowrap</p>
+                  <code>.container {
+                    flex-flow: column wrap;
+                  }</code>
+
+              <h4>justify-content</h4>
+              <p>This defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.</p>
+              <code>.container {
+                justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+              }</code>
+
+              <ul>
+                <li><kbd>flex-start</kbd> (default): items are packed toward the start of the <kbd>flex-direction</kbd>.</li>
+                <li><kbd>flex-end: </kbd> items are packed toward the end of the <kbd>flex-direction.</kbd></li>
+                <li><kbd>start: </kbd>items are packed toward the start of the <kbd>writing-mode</kbd> direction.</li>
+                <li><kbd>end: </kbd>items are packed toward the end of the <kbd>writing-mode</kbd> direction.</li>
+                <li><kbd>left: </kbd>items are packed toward left edge of the container, unless that doesn’t make sense with the <kbd>flex-direction</kbd>, then it behaves like start.</li>
+                <li><kbd>right: </kbd>items are packed toward right edge of the container, unless that doesn’t make sense with the <kbd>flex-direction</kbd>, then it behaves like end.</li>
+                <li><kbd>center: </kbd>items are centered along the line</li>
+                <li><kbd>space-between: </kbd>items are evenly distributed in the line; first item is on the start line, last item on the end line</li>
+                <li><kbd>space-around: </kbd> items are evenly distributed in the line with equal space around them. Note that visually the spaces aren’t equal, since all the items have equal space on both sides. The first item will have one unit of space against the container edge, but two units of space between the next item because that next item has its own spacing that applies.</li>
+                <li><kbd>space-evenly: </kbd>items are distributed so that the spacing between any two items (and the space to the edges) is equal.</li>
+              </ul>
+
+            <h4>align-items</h4>
+            <p>This defines the default behavior for how <kbd>flex</kbd> items are laid out along the cross axis on the current line. Think of it as the justify-content version for the cross-axis (perpendicular to the main-axis).</p>
+            <code>.container {
+              align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+            }</code>
+            <ul>
+              <li><kbd>stretch (default): </kbd>stretch to fill the container (still respect min-width/max-width)</li>
+              <li><kbd>flex-start / start / self-start: </kbd>items are placed at the start of the cross axis. The difference between these is subtle, and is about respecting the <kbd>flex-direction</kbd> rules or the writing-mode rules.</li>
+              <li><kbd>flex-end / end / self-end: </kbd>items are placed at the end of the cross axis. The difference again is subtle and is about respecting <kbd>flex-direction</kbd> rules vs. <kbd>writing-mode</kbd> rules.</li>
+              <li><kbd>center: </kbd>items are centered in the <kbd>cross-axis</kbd></li>
+              <li><kbd>baseline: </kbd> items are aligned such as their baselines align</li>
+            </ul>
+
+          <h4>align-content</h4>
+          <p>This aligns a flex container’s lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis</p>
+          <code>.container {
+            align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+          }</code>
+          <ul>
+            <li><kbd>normal (default): </kbd>.items are packed in their default position as if no value was set</li>
+            <li><kbd>flex-start / start: </kbd>items packed to the start of the container. The (more supported) <kbd> flex-start</kbd> honors the flex-direction while start honors the writing-mode direction.</li>
+            <li><kbd>flex-end / end: </kbd>items packed to the end of the container. The (more support) <kbd>flex-end</kbd> honors the flex-direction while end honors the writing-mode direction.</li>
+            <li><kbd>center: </kbd> items centered in the container</li>
+            <li><kbd>space-between: </kbd>items evenly distributed; the first line is at the start of the container while the last one is at the end</li>
+            <li><kbd>space-around: </kbd> items evenly distributed with equal space around each line</li>
+            <li><kbd>space-evenly: </kbd>items are evenly distributed with equal space around them</li>
+            <li><kbd>stretch: </kbd>lines stretch to take up the remaining space</li>
+          </ul>
+
+          <h4>gap, row-gap, column-gap</h4>
+          <p>The gap property explicitly controls the space between flex items. It applies that spacing only between items not on the outer edges.</p>
+          <code>.container {
+            display: flex;
+            ...
+            gap: 10px;
+            gap: 10px 20px; /* row-gap column gap */
+            row-gap: 10px;
+            column-gap: 20px;
+          }</code>
+          <hr>
+        <h3>Properties for the Children
+          (flex items)</h3>
+          <h4>order</h4>
+            <p>By default,<kbd> flex items</kbd> are laid out in the source order. However, the order property controls the order in which they appear in the <kbd>flex container</kbd>.</p>
+              <code>.item {
+              order: 5; /* default is 0 */
+              }</code>
+          <h4>flex-grow</h4>
+            <p>This defines the ability for a flex item to <kbd> \grow</kbd> if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+              <code>.item {
+                flex-grow: 4; /* default 0 */
+              }</code>
+          <h4>flex-shrink</h4>
+              <p>This defines the ability for a flex item to <kbd>shrink</kbd> if necessary.</p>
+                <code>.item {
+                  flex-shrink: 3; /* default 1 */
+                }</code>
+          <h4>flex-basis</h4>
+              <p>This defines the default size of an element before the remaining space is distributed. It can be a length <kbd> (e.g. 20%, 5rem, etc.)</kbd> or a keyword. The auto keyword means “look at my width or height property” (which was temporarily done by the main-size keyword until deprecated). The content keyword means “size it based on the item’s content” – this keyword isn’t well supported yet, so it’s hard to test and harder to know what its brethren <kbd>max-content, min-content, and fit-content</kbd> do.</p>
+                <code>.item {
+                  flex-basis:  | auto; /* default auto */
+                }</code>
+          <h4>flex</h4>
+              <p>This is the shorthand for <kbd>flex-grow</kbd>, <kbd>flex-shrink</kbd> and <kbd> flex-basis</kbd> combined. The second and third parameters (flex-shrink and flex-basis) are optional. The default is 0 1 auto, but if you set it with a single number value, like flex: 5;, that changes the flex-basis to 0%, so it’s like setting flex-grow: 5; flex-shrink: 1; flex-basis: 0%;</p>
+                <code>.item {
+                  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+                }</code>
+          <h4>align-self</h4>
+              <p>This allows the default alignment (or the one specified by <kbd>align-items</kbd>) to be overridden for individual flex items.</p>
+                <code>.item {
+                  align-self: auto | flex-start | flex-end | center | baseline | stretch;
+                }</code>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
