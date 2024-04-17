@@ -1,0 +1,39 @@
+.container{margin: auto;}
+
+    .background{background: lightgrey;}
+
+    .head{background: transparent;
+        background-color: yellow;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        }
+
+    .eyeball{background-color: white;
+        border-radius: 50px;
+        width: 40px;
+        height: 40px;
+     margin: 12px;}
+
+    .pupil{background-color: black;
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+        margin: 12px;}
+
+    .body{ background-color: yellow;
+        border-radius: 90px;
+        width: 180px;
+        height: 180px;}
+
+    strong{font-size: 50px;}
+
+    .wing{color:black;}
+
+    .drumstick{color:green;}
+
+    .drumstick-right{color:crimson;}
+
+    .bcg{display: flex;}
+
+    h1{font-size: 50px;}
