@@ -2142,6 +2142,8 @@
      position: relative;
  }
  #services .overlay {
+        background-repeat: no-repeat;
+     background-position: center;
      position: absolute;
      top: 0;
      left: 0;
