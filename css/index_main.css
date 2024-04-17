@@ -2131,8 +2131,7 @@
   * ------------------------------------------------------------------- 
   */
  #services {
-     background-repeat: no-repeat;
-     background-position: center;
+     background:  url(background.jpeg) no-repeat center;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      background-size: cover;
@@ -2142,17 +2141,12 @@
      position: relative;
  }
  #services .overlay {
-    background-repeat: no-repeat;
-     background-position: center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     background-size: cover;
-     position: relative;
+     position: absolute;
      top: 0;
      left: 0;
      width: 100%;
      height: 100%;
-     background-image: url(background.jpeg);
+     background: #151515;
      opacity: .9;
  }
  
