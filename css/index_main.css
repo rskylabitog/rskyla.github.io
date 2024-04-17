@@ -2142,9 +2142,12 @@
      position: relative;
  }
  #services .overlay {
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
      background-position: center;
-     position: absolute;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     position: relative;
      top: 0;
      left: 0;
      width: 100%;
